@@ -1,4 +1,5 @@
 const router = require('express').Router()
+const {CDNupload} = require('./../config/cloudinary.config')
 
 const User = require('../models/User.model')
 const Product = require('../models/Product.model')
