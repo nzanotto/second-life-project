@@ -1,0 +1,43 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  color: #666666;
+}
+h1, h2, h3, h4, h5, h6, p {
+  color: #666666;
+}
+.navbar-brand{
+  color: #666666;
+}
+
+/* navbar */
+.navbar {
+  margin-bottom: 50px;
+}
+
+/* logos */
+.logo {
+  width: 130px;
+  height: auto;
+  padding: 0;
+  margin: 0;
+}
+
+.heartLogo {
+  width: 30px;
+}
+
+.heartLogoNavbar {
+  width: 20px;
+}
+
+/* button */
+.btn-success {
+    color: #fff;
+    background-color: #76dd85;
+    border-color: #76dd85;
+}
+
+/* category icons */
+.category {
+  width: 100px;
+}

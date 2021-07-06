@@ -1,0 +1,14 @@
+<div class="container">
+    <h3>Products's List</h3>
+        <hr>
+        {{#each products}}
+            <p>* {{name}}
+                <small>
+                <a href="/product/details/{{id}}">details</a> |
+                <a href="/product/edit/{{id}}">edit</a> |
+                <a href="/product/delete/{{id}}">delete</a>
+                </small>
+            </p>
+        {{/each}}
+    
+</div>
